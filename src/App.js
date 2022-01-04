@@ -1,15 +1,15 @@
 // @ts-nocheck
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Topbar from "./components/Topbar/Topbar";
 import Homepage from "./pages/Homepage/Homepage";
+import NewProduct from "./pages/NewProduct/NewProduct";
 import NewUser from "./pages/NewUser/NewUser";
+import Product from "./pages/Product/Product";
+import ProductList from "./pages/ProductList/ProductList";
 import User from "./pages/User/User";
 import Userlist from "./pages/UserList/Userlist";
-import ProductList from "./pages/ProductList/ProductList";
-import Product from "./pages/Product/Product";
-import NewProduct from "./pages/NewProduct/NewProduct";
 
 function App() {
     return (
